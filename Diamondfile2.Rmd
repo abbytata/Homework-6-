@@ -1,0 +1,12 @@
+---
+title: "Diamondsfile2"
+author: "abby tata"
+date: "2/23/2022"
+output: word_document
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
